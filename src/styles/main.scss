@@ -1,4 +1,9 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
   margin: 0;
   background-color: #00d4f0;
   text-align: center;
@@ -8,12 +13,11 @@ body {
 
 .game {
   &__stage {
-    width: 600px;
-    margin: 80px auto 30px;
+    display: flex;
+    margin-bottom: 40px;
   }
 
   &__card {
-    display: inline-block;
     width: 70px;
     height: 90px;
     font-size: 24px;
