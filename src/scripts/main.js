@@ -81,11 +81,7 @@
         [firstCard, secondCard] = [null, null];
       }
 
-      const container = document.createElement('div');
-      container.classList.add('game__container');
-      container.appendChild(card);
-
-      return container;
+      return card;
     }
 
     for (let i = 1; i <= level; i++) {

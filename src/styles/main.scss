@@ -12,27 +12,20 @@ body {
     margin: 80px auto 30px;
   }
 
-  &__container {
-    position: relative;
+  &__card {
     display: inline-block;
-    width: 50px;
-    height: 60px;
+    width: 70px;
+    height: 90px;
     font-size: 24px;
     font-weight: bold;
-    line-height: 60px;
+    line-height: 90px;
     perspective: 100px;
-    & + & {
-      margin-left: 10px;
-    }
-  }
-
-  &__card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     transform-style: preserve-3d;
     transition: transform .8s;
     cursor: pointer;
+    & + & {
+      margin-left: 20px;
+    }
   }
   &__card-back,
   &__card-front {
